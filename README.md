@@ -1,12 +1,11 @@
 # Express Books
-
-Express Books is Web Application to save a list of your favorite books. All data are store in a Json file.
+Express Books es una aplicacion web para guardar una lista de tus libros favorita. Todos los datos son almacenados en un archivo json
 
 # ScreenShoot
 
 ![Express Books](docs/screenshot.png)
 
-# Installation
+# Instalacion
 
 ```shell
 git clone https://github.com/FaztTech/books-express
@@ -15,13 +14,12 @@ npm run build
 npm start
 ```
 
-# Environment Variables
+# Variables de entorno
 
-- `PORT`, this is the http port of the server. by default is `5000`.
-- `APPID` - (optional), this is an unique ID for the application to identify in a load balancer
+- `PORT`, Este es el puerto del server por defaul `5000`.
+- `APPID` - (optional), ID unico  para la aplicacion 
 
-Also you can create a .env file with the environment variables mentioned above.
-
+Tambien puede crear un archivo .env file con las variables de entorno mencionadas.
 # Docker
 
 ```shell
@@ -33,10 +31,6 @@ docker run -p 80:5000 express-books .
 ```
 
 then visit: `http://localhost`
-
-# Video Tutorial
-
-- [Youtube (Spanish)](https://youtu.be/IRqaH_jhyT8)
 
 # Considerations
 
